@@ -1,0 +1,34 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+
+# datagen working dir / logs / backups
+run-data
+logs
+*.bak
+*.log
+
+# 编辑器本地配置（含本机绝对路径，不能提交）
+.vscode/
