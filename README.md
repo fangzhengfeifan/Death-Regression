@@ -1,4 +1,4 @@
-# RegressionMod
+# Death Regression
 
 死亡后，整个世界回退到你的存档点。
 
@@ -102,8 +102,8 @@ saves/<世界名>/serverconfig/regressionmod-server.toml
 ## 从源码构建
 
 ```bash
-git clone https://github.com/<你的用户名>/RegressionMod.git
-cd RegressionMod
+git clone https://github.com/fangzhengfeifan/Death-Regression.git
+cd Death-Regression
 ./gradlew build          # Windows: gradlew.bat build
 ```
 
