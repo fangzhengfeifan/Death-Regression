@@ -225,5 +225,5 @@ tasks.withType(JavaCompile).configureEach {
 tasks.register('playerTest', JavaExec) {
     dependsOn 'classes'
     classpath = sourceSets.main.runtimeClasspath
-    mainClass = 'com.regressionmod.regression.PlayerOnlySelfTest'
+    mainClass = 'com.deathregression.regression.PlayerOnlySelfTest'
 }

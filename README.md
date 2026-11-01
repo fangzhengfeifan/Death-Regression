@@ -86,7 +86,7 @@ A Minecraft Forge mod for 1.20.1: when you die, the whole world rolls back to yo
 每个世界一份：
 
 ```
-saves/<世界名>/serverconfig/regressionmod-server.toml
+saves/<世界名>/serverconfig/deathregression-server.toml
 ```
 
 在 A 世界改的设置不影响 B 世界。
@@ -96,7 +96,7 @@ saves/<世界名>/serverconfig/regressionmod-server.toml
 ## 安装
 
 1. 安装 Minecraft 1.20.1 + Forge 47.x
-2. 把 `regressionmod-1.0.0.jar` 放进 `mods` 文件夹
+2. 把 `Death-Regression-1.0.0.jar` 放进 `mods` 文件夹
 3. 启动游戏
 
 ## 从源码构建
@@ -107,7 +107,7 @@ cd Death-Regression
 ./gradlew build          # Windows: gradlew.bat build
 ```
 
-产物在 `build/libs/regressionmod-1.0.0.jar`。
+产物在 `build/libs/Death-Regression-1.0.0.jar`。
 
 需要 JDK 17。
 
